@@ -1,0 +1,19 @@
+{
+	"name": "portafolio2021",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint ."
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"standard": "^16.0.4"
+	},
+	"eslintConfig": {
+		"extends": "./node_modules/standard/eslintrc.json"
+	}
+}
