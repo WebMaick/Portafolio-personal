@@ -5,19 +5,19 @@ export const menuNab = (btnMenu, menu, selectorColor, menuLink) => {
   const $btnMenu = d.getElementById(btnMenu)
   const $menu = d.getElementById(menu)
 
-  $btnMenu.addEventListener('click', () => {
-    $menu.classList.toggle('active__nav')
-    $btnMenu.classList.toggle('active')
+  $btnMenu.addEventListener("click", () => {
+    $menu.classList.toggle("active__nav")
+    $btnMenu.classList.toggle("active")
   })
 
-  d.addEventListener('click', (e) => {
+  d.addEventListener("click", (e) => {
     if (e.target.matches(selectorColor)) {
-      rootStyles.setProperty('--color-primary', e.target.dataset.color)
+      rootStyles.setProperty("--color-primary", e.target.dataset.color)
     }
 
     if (e.target.matches(menuLink)) {
-      $menu.classList.remove('active__nav')
-      $btnMenu.classList.remove('active')
+      $menu.classList.remove("active__nav")
+      $btnMenu.classList.remove("active")
     }
   })
 }
