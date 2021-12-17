@@ -17,7 +17,7 @@ box-shadow:inset 3px 3px 3px #d0d0d0,inset -3px -3px 3px #f8f8f8;
   --transition-btn: color 0.3s ease, background-color 0.2s ease-in-out, opacity,
     0.2s ease;
   --text-color: hsl(0, 0%, 20%);
-  --bg-card-color: hsl(0, 0%, 98%);
+
   --color-bg: #e6e6e6;
   --color-primary: rgba(13, 13, 14, 0.9);
   --color-primary: crimson;
@@ -25,6 +25,7 @@ box-shadow:inset 3px 3px 3px #d0d0d0,inset -3px -3px 3px #f8f8f8;
   --color-primary: purple;
   --color-primary: hsl(180, 100%, 25%);
   --color-dark-deep-trans: hsl(0, 0%, 5%);
+  --color-sombra: hsl(0, 6%, 40%);
 
   /* variables generales */
   --color-primary-trans: rgba(13, 13, 14, 0.9);
@@ -45,7 +46,6 @@ box-shadow:inset 3px 3px 3px #d0d0d0,inset -3px -3px 3px #f8f8f8;
   --color-claro-trans: rgba(188, 180, 180, 0.9);
   --color-verde-oscuro: #072736;
   --color-verde-oscuro-trans: rgba(7, 39, 54, 0.9);
-  --color-sombra: #a9a9a9;
 }
 
 html {
@@ -67,7 +67,8 @@ body.dark {
   --text-color: hsl(0, 0%, 83%);
   /* --color-bg: hsl(0, 0%, 15%); */
   --color-bg: #1e1e1e;
-  --bg-card-color: hsl(0, 0%, 20%);
+  /* --bg-card-color: hsl(0, 0%, 15%); */
+  --bg-card-color: rgba(0, 0, 0, 0.7);
 }
 
 body::-webkit-scrollbar {

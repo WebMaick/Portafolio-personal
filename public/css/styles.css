@@ -404,6 +404,64 @@ section {
   }
 }
 
+/*=== Inicio de: inicio de seccion skill ===*/
+.skill__content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.skill__item {
+  align-items: center;
+  background-color: var(--bg-card-color);
+  border-radius: var(--border-radius);
+  box-shadow: -1px 3px 1px 0px var(--color-sombra);
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  padding: 0 0.5rem;
+  width: 100%;
+}
+
+.skill__item figure {
+  width: 20%;
+}
+
+.skill__item figure img {
+  width: 50px;
+  height: 50px;
+}
+
+.skill__item p {
+  font-size: 1.1rem;
+  width: 80%;
+}
+
+@media screen and (min-width: 48em) {
+  .skill__content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .skill__item {
+    padding: 10px;
+  }
+
+  .skill__item figure img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skill__item p {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+/*=== Fin de: inicio de seccion skill ===*/
+
 /*=== Fin de: Estilos Main ===*/
 @media screen and (min-width: 48em) {
   /*768px*/
